@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Test AddressBookApplication
- *
+ * @author Arthur Handy
  */
 class AddressBookApplicationTest {
     @Test
