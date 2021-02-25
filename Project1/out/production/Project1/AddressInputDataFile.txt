@@ -1,0 +1,6 @@
+Ashley, Cheung, 392 Boba Street, Fremont, CA, 21390, 510-389-3284, AshleyCheung@gmail.com
+Arthur, Handy, 829 1st Drive, Fremont, CA, 10284, 408-710-9104, ArthurHandy@csueastbay.edu
+Nick, Huynh, 19 Tech Ave, SanJose, CA, 23945, 510-234-3748, NickHuynh@gmail.com
+Ivan, Huy, 93 Marker Blvd, CA, 30492, 510-389-2390, IvanHuy@gmail.com
+Tri, Nguyen, 204 Victorian Drive, Milpitas, CA, 39204, 408-273-1123, TriNguyen@gmail.com
+Zach, Oly, 10 Electronic Drive, Fremont, CA, 30949, 408-182-1134, ZachOly@gmail.com
