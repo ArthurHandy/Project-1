@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * Class AddressBookApplication contains the main application class. Uses Menu classes and AddressBook
+ * @author Arthur Handy
  */
 public class AddressBookApplication {
     /**
