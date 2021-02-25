@@ -16,10 +16,6 @@ public class AddressBookApplication {
 
         AddressBook ab = new AddressBook();
         char pick = Menu.prompt_Menu(System.in);
-
-        if (pick == 'f') {
-            System.out.println("Goodbye!");
-        }
         
         while (pick != 'f') {
             switch(pick) {
@@ -43,6 +39,9 @@ public class AddressBookApplication {
                     break;
             }
             pick = Menu.prompt_Menu(System.in);
+        }
+        if (pick == 'f') {
+            System.out.println("Goodbye!");
         }
     }
 
