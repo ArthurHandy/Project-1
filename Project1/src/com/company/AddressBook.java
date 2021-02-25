@@ -9,6 +9,7 @@ import java.util.Comparator;
 
 /**
  * Class AddressBook that will list, remove, add, readFromFile, and find.
+ * @author Arthur Handy
  */
 public class AddressBook {
 
