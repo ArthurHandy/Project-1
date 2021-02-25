@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
     /**
     * Test AddressEntryTest
+    * @author Arthur Handy
     */
     class AddressEntryTest {
 
