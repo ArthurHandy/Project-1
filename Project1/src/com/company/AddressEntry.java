@@ -8,6 +8,7 @@ package com.company;
  * city, state zip
  * email
  * phone
+ * @author Arthur Handy
  */
 public class AddressEntry {
     /**
