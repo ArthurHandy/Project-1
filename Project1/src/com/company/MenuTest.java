@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Test MenuTest Class
+ * @author Arthur Handy
  */
 class MenuTest {
 
