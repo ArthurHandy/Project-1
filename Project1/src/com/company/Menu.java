@@ -21,9 +21,16 @@ public class Menu {
      */
     public static String prompt_FirstName(InputStream in) {
         Scanner input = new Scanner(in);
+        String firstname = " ";
         System.out.println("First Name:");
         System.out.print("> ");
-        return input.nextLine();
+        firstname = input.nextLine();
+
+        while(firstname.isEmpty()){
+            System.out.print("Error! Enter valid first name: ");
+            firstname = input.nextLine();
+        }
+        return firstname;
     }
 
     /**
@@ -33,9 +40,16 @@ public class Menu {
      */
     public static String prompt_LastName(InputStream in) {
         Scanner input = new Scanner(in);
-        System.out.println("Last Name:");
+        String lastname = " ";
+        System.out.println("First Name:");
         System.out.print("> ");
-        return input.nextLine();
+        lastname = input.nextLine();
+
+        while(lastname.isEmpty()){
+            System.out.print("Error! Enter valid last name: ");
+            lastname = input.nextLine();
+        }
+        return lastname;
     }
 
     /**
@@ -45,9 +59,16 @@ public class Menu {
      */
     public static String prompt_Street(InputStream in) {
         Scanner input = new Scanner(in);
+        String street = " ";
         System.out.println("Street:");
         System.out.print("> ");
-        return input.nextLine();
+        street = input.nextLine();
+
+        while(street.isEmpty()){
+            System.out.print("Error! Enter valid street name: ");
+            street = input.nextLine();
+        }
+        return street;
     }
 
     /**
@@ -57,9 +78,16 @@ public class Menu {
      */
     public static String prompt_City(InputStream in) {
         Scanner input = new Scanner(in);
+        String city = " ";
         System.out.println("City:");
         System.out.print("> ");
-        return input.nextLine();
+        city = input.nextLine();
+
+        while(city.isEmpty()){
+            System.out.print("Error! Enter city name: ");
+            city = input.nextLine();
+        }
+        return city;
     }
 
     /**
@@ -69,9 +97,16 @@ public class Menu {
      */
     public static String prompt_State(InputStream in) {
         Scanner input = new Scanner(in);
+        String state = " ";
         System.out.println("State:");
         System.out.print("> ");
-        return input.nextLine();
+        state = input.nextLine();
+
+        while(state.isEmpty()){
+            System.out.print("Error! Enter valid state name: ");
+            state = input.nextLine();
+        }
+        return state;
     }
 
     /**
@@ -95,9 +130,16 @@ public class Menu {
      */
     public static String prompt_Phone(InputStream in) {
         Scanner input = new Scanner(in);
+        String phone = " ";
         System.out.println("Phone: xxx-aaa-bbbb");
         System.out.print("> ");
-        return input.nextLine();
+        phone = input.nextLine();
+
+        while(phone.isEmpty()){
+            System.out.print("Error! Enter valid phone number: ");
+            phone = input.nextLine();
+        }
+        return phone;
     }
 
     /**
@@ -107,9 +149,16 @@ public class Menu {
      */
     public static String prompt_Email(InputStream in) {
         Scanner input = new Scanner(in);
+        String email = " ";
         System.out.println("Email:");
         System.out.print("> ");
-        return input.nextLine();
+        email = input.nextLine();
+
+        while(email.isEmpty()){
+            System.out.print("Error! Enter valid email Address: ");
+            email = input.nextLine();
+        }
+        return email;
     }
 
     /**
