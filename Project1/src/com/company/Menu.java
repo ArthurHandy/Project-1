@@ -11,6 +11,7 @@ import java.util.Scanner;
  * d) Find
  * e) Listing
  * f) Quit
+ * @author Arthur Handy
  */
 public class Menu {
     /**
